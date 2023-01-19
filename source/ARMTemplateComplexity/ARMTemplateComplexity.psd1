@@ -16,7 +16,7 @@
     Description = 'Measures the complexity of ARM Templates and gives out a score'
 
     # Minimum PowerShell version supported by this module (optional, recommended)
-    # PowerShellVersion = ''
+    PowerShellVersion = '5.1'
 
     # Which PowerShell Editions does this module work with? (Core, Desktop)
     CompatiblePSEditions = @('Desktop', 'Core')
@@ -43,7 +43,7 @@
             ProjectUri = 'https://github.com/kilasuit/ARMTemplateComplexity'
 
             # What is the URI to a custom icon file for your project? (optional)
-            IconUri = ''
+            # IconUri = ''
 
             # What new features, bug fixes, or deprecated features, are part of this release?
             ReleaseNotes = @'
